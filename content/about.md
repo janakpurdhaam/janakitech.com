@@ -1,13 +1,13 @@
 ---
 title: "About Us"
 page_header_bg: "images/bg/section-bg5.jpg"
-description: "This is meta description"
+description: "About the company"
 layout: "about"
 draft: false
 
 ######################### Counter ####################
 counter:
-  enable: true
+  enable: false
   title : "We help entreprenuers <br>starts up and turn <span class=\"text-color\">their ideas into</span> produtcs"
   counter_item:
   # counter item loop
@@ -31,67 +31,58 @@ counter:
 ####################### Promo video ######################
 video:
   enable: true
-  title : "Growing Software Company Since 2008"
-  video_thumb: "images/about/img-34.png"
-  video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
+  title : "Established in 2007"
+  video_thumb: "images/about/dhruba_bizfest.png"
+  video_embed_link : "https://www.youtube.com/embed/p87ImmTF_fc"
   content : "
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint earum, eos esse non error facilis ad, maiores eum quae vero libero voluptas! Reprehenderit sunt similique, quae quidem voluptatem odit natus.
-
-
-  * Create and manage any process for your business needs.
-
-  * Create and manage any process for your business needs.
-
-  * Create and manage any process for your business needs.
+  Janaki Technology is a co-founder driven company started from a college dormitory back in 2007.
+  Today, the company has matured its footsteps and achieved multiple milestones steered with its passion, enthusiasm and utter dedication since the very beginning.
   "
   button:
-    enable : true
+    enable : false
     label : "All Services"
     link : "service"
 
 ################################## Team ########################
 team:
   enable : true
-  title : "Our Team"
-  content : "Today’s users expect effortless experiences. Don’t let essential people and processes stay stuck in the
-            past. Speed it up, skip the hassles"
+  title : "The Leadership"
+  content : ""
   team_member:
   # team member loop
-  - name : "John Marshal"
-    image : "images/team/03-1.jpg"
-    designation : "Founder"
+  - name : "Amit Agrawal"
+    image : "images/team/amit-agrawal.jpg"
+    designation : "Founding Director"
     
   # team member loop
-  - name : "Marshal Root"
-    image : "images/team/01-3.jpg"
-    designation : "Marketing Head"
+  - name : "Arvind Sah"
+    image : "images/team/arvind-sah.jpg"
+    designation : "Founding Director"
     
   # team member loop
-  - name : "Siamon john"
-    image : "images/team/03-1.jpg"
-    designation : "Co-ordinator"
+  - name : "Dhruba Adhikari"
+    image : "images/team/dhruba-adhikari-square.jpg"
+    designation : "Founding Director"
     
   # team member loop
-  - name : "John Marshal"
-    image : "images/team/01-3.jpg"
-    designation : "Developer"
+  - name : "Manish Modi"
+    image : "images/team/manish-modi-square.jpg"
+    designation : "Founding Director"
 
 ################################ Clients ######################
 clients:
   enable : true
-  title : "Honors and awards"
-  content : "Dicta cupiditate, incidunt quia obcaecati itaque cumque, nostrum ipsum est voluptatibus, porro
-            provident a quam quibusdam. Ducimus possimus, nesciunt minima magni aspernatur."
+  title : "Clientele"
+  content : "Janaki Technology has served wide range of clients ranging from Ministries to SMSe"
   logos:
-  - "images/about/02.png"
-  - "images/about/03.png"
-  - "images/about/04.png"
-  - "images/about/05.png"
-  - "images/about/06.png"
-  - "images/about/07.png"
+  - "images/clients/nepal_government.jpg"
+  #- "images/clients/04.png"
+  #- "images/clients/05.png"
+  #- "images/clients/06.png"
+  #- "images/clients/07.png"
     
 ########################## Testimonial ########################
 testimonial:
-  enable: true
+  enable: false
   # testimonial content comes from "data/homepage.yml" file.
 ---

@@ -53,10 +53,30 @@ name = "About"
 url = "about"
 weight = 2
 
-#[[menu.main]]
-#name = "Portfolio"
-#url = "portfolio"
-#weight = 3
+[[menu.main]]
+name = "Portfolio"
+url = "portfolio"
+weight = 3
+
+[[menu.main]]
+weight = 4
+name = "Pages"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Blog"
+  url = "blog"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Service"
+  url = "service"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  url = "pricing"
   
 [[menu.main]]
 name = "Contact"
@@ -69,20 +89,20 @@ name = "About"
 url = "about"
 weight = 2
 
-#[[menu.company]]
-#name = "Portfolio"
-#url = "portfolio"
-#weight = 3
+[[menu.company]]
+name = "Portfolio"
+url = "portfolio"
+weight = 3
 
-#[[menu.company]]
-#name = "Service"
-#url = "service"
-#weight = 4
+[[menu.company]]
+name = "Service"
+url = "service"
+weight = 4
 
-#[[menu.company]]
-#name = "Blog"
-#url = "blog"
-#weight = 5
+[[menu.company]]
+name = "Blog"
+url = "blog"
+weight = 5
 
 [[menu.company]]
 name = "Contact"
@@ -90,45 +110,45 @@ url = "contact"
 weight = 6
 
 # footer menu 2
-#[[menu.support]]
-#name = "About"
-#url = "about"
-#weight = 1
+[[menu.support]]
+name = "About"
+url = "about"
+weight = 1
 
-#[[menu.support]]
-#name = "Portfolio"
-#url = "portfolio"
-#weight = 2
+[[menu.support]]
+name = "Portfolio"
+url = "portfolio"
+weight = 2
 
-#[[menu.support]]
-#name = "Service"
-#url = "service"
-#weight = 3
+[[menu.support]]
+name = "Service"
+url = "service"
+weight = 3
 
-#[[menu.support]]
-#name = "Blog"
-#url = "blog"
-#weight = 4
+[[menu.support]]
+name = "Blog"
+url = "blog"
+weight = 4
 
-#[[menu.support]]
-#name = "Contact"
-#url = "contact"
-#weight = 5
+[[menu.support]]
+name = "Contact"
+url = "contact"
+weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/janakitech_logo.png"
-logo_white = "images/janakitech_logo_white.png"
+logo = "images/logo.png"
+logo_white = "images/logo-w.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-mobile = "+977-980-200-5008"
-email = "support@janakitech.com"
-location = "Kumaripati, Lalitpur"
-footer_content = "Janaki Technology has been in the market for more than a decade, successful in establishing several products and disrupting the market."
+mobile = "+23-345-67890"
+email = "support@gmail.com"
+location = "North Main Street,Brooklyn Australia"
+footer_content = "Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus."
 # copyright
-copyright = "[Janaki Technology Pvt. Ltd.](https://janakitech.com/)"
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
 # Preloader
 [params.preloader]
@@ -138,8 +158,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Sparrow SMS"
-link = "https://sparrowsms.com/"
+label = "Get an estimate"
+link = "contact"
 
 # cookies
 [params.cookies]
@@ -147,14 +167,14 @@ enable = false
 expire_days = 2
 
 ################################# Social icon #######################
-#[[params.social]]
-#icon = "ti-facebook"
-#link = "#"
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
 
-#[[params.social]]
-#icon = "ti-twitter-alt"
-#link = "#"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
 
-#[[params.social]]
-#icon = "ti-github"
-#link = "#"
+[[params.social]]
+icon = "ti-github"
+link = "#"

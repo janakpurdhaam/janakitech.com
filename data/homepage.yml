@@ -2,29 +2,29 @@
 banner:
   enable: true
   bg_image : "images/bg/main-banner1.jpg"
-  subtitle : "The most powerful Solution"
-  title : "Digital experience with Orbitor"
-  content : "Veritatis earum aliquid doloribus molestias, eveniet molestiae aperiam ratione. Facilis
-            velit voluptatibus impedit eligendi delectus illo earum voluptatum, laudantium molestiae!"
+  subtitle : "Successful in every footprints"
+  title : "Incorporating the innovations"
+  content : "Everyday, we live by the vision of our products; and strive to build a better software for everyone
+  "
   button:
     enable : true
-    label : "Learn more about Digicon"
+    label : "Learn more about us"
     link : "about"
 
 
 ########################### Banner feature ################################
 banner_feature:
-  enable : true
+  enable : false
   feature_item:
     # feature item loop
     - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Custom Effective Software development"
-      content : "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      title : "Sparrow SMS"
+      content : "Since its inception, Sparrow SMS has been the leading SMS VAS Provider in the country"
       
     # feature item loop
     - icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Analyse Your Expensees On Every Device"
-      content : "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      title : "Khalti Digital Wallet"
+      content : "Originally Founded by Janaki Technology, Khalti has already established itself as the second largest digital wallet in the country"
       
     # feature item loop
     - icon : "ti-headphone-alt" # here we use themify icon pack : https://themify.me/themify-icons
@@ -34,33 +34,23 @@ banner_feature:
 ########################## features #######################################
 feature:
   enable : true
-  subtitle : "Why choose us"
-  title : "We help you to make work easy"
-  content : "We understand what your business means to you,your requirements considering trends.Smet nemo excepturi voluptas eligendi ."
+  subtitle : "Known Names around"
+  title : "Successfully laid footprints"
+  content : "We have established ourselves as a market creators in a span of a decade"
   feature_item:
     # feature item loop
-    - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Data analysis"
-      content : "A complete web app solution for business"
+    - icon : "ti-email" # here we use themify icon pack : https://themify.me/themify-icons
+      title : "Sparrow SMS"
+      content : "Since its inception, Sparrow SMS has been the leading SMS VAS Provider in the country"
       
     # feature item loop
-    - icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Web Development"
-      content : "A complete web app solution for business"
-      
-    # feature item loop
-    - icon : "ti-search" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Content Mangement"
-      content : "A complete web app solution for business"
-      
-    # feature item loop
-    - icon : "ti-rocket" # here we use themify icon pack : https://themify.me/themify-icons
-      title : "Mobility"
-      content : "A complete web app solution for business"
+    - icon : "ti-wallet" # here we use themify icon pack : https://themify.me/themify-icons
+      title : "Khalti Digital Wallet"
+      content : "Originally Founded by Janaki Technology, Khalti has already established itself as the second largest digital wallet in the country"
 
 ########################### Call to action #####################################
 call_to_action:
-  enable: true
+  enable: false
   title : "Assurance Service In Software Testing"
   content : "An Independent Validation and Testing services from SISAR. Helps to reduce software development efforts"
   button:
@@ -70,7 +60,7 @@ call_to_action:
 
 ################################### portfolio ####################################
 project:
-  enable: true
+  enable: false
   title : "We’ve Done Lot’s of Work, Let’s Check Some From Here"
   content : "We have the best experts to elevate your business to the next level, try is and you will see! We have the best experts to elevate your"
 
@@ -78,7 +68,7 @@ project:
 
 ################################ Counter #######################################
 counter:
-  enable : true
+  enable : false
   counter_item :
     # counter item loop
     - title : "Project Done"
@@ -102,7 +92,7 @@ counter:
 
 ########################## Testimonial #############################################
 testimonial:
-  enable: true
+  enable: false
   title : "What they say about us"
   content : "They are truely amazing in the industry ,molestiae expedita aspernatur officia, similique minima
             laudantium. Corrupti ipsa perspiciatis commodi nesciunt rerum mollitia enim voluptate!"

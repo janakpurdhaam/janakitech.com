@@ -79,32 +79,17 @@
 <!-- /promo video -->
 
 <!-- team -->
+{{ if .Params.leadership.enable }}
+{{ with .Params.leadership }}
+{{ partial "about_teamsection.html" . }}
+{{ end }}
+{{ end }}
+<!-- /team -->
+
+<!-- team -->
 {{ if .Params.team.enable }}
 {{ with .Params.team }}
-<section class="section team">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <div class="heading text-center mb-50">
-          <h2 class="mb-4">{{ .title | markdownify }}</h2>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      {{ range .team_member }}
-      <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="team-block mb-5 mb-lg-0">
-          <img loading="lazy" src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid w-100">
-          <h4 class="mt-4 mb-0">{{ .name }}</h4>
-          <p>{{.designation }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{ partial "about_teamsection.html" . }}
 {{ end }}
 {{ end }}
 <!-- /team -->

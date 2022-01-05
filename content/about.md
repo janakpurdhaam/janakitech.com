@@ -46,7 +46,7 @@ video:
 ################################## Team ########################
 team:
   enable : true
-  title : "The Leadership"
+  title : "The Team"
   content : ""
   team_member:
   # team member loop
@@ -69,6 +69,21 @@ team:
     image : "images/team/manish-modi-square.jpg"
     designation : "Founding Director"
 
+  # team member loop
+  - name : "Manoj Thapa"
+    image : "images/team/manoj_thapa.png"
+    designation : "CEO"
+    
+  # team member loop
+  - name : "Amrit Silwal"
+    image : "images/team/amrit_silwal.png"
+    designation : "Sr. Finance Officer"
+
+################################## Team ########################
+leadership:
+  enable : false
+  title : "The Team"
+  content : ""
 ################################ Clients ######################
 clients:
   enable : true

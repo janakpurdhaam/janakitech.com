@@ -75,9 +75,9 @@ team:
     designation : "CEO"
     
   # team member loop
-  - name : "Amrit Silwal"
-    image : "images/team/amrit_silwal.png"
-    designation : "Sr. Finance Officer"
+  - name : "Ojash Thapa"
+    image : "images/team/ojash_thapa.png"
+    designation : "CFO"
 
 ################################## Team ########################
 leadership:
